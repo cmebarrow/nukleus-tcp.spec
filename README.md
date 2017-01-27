@@ -16,7 +16,7 @@ There can be multiple sources and targets if the TCP nukleus is being used in co
 ## Control protocol
 
 In ROUTE INPUT control commands, the source is interpreted as an interface name and sourceRef as a port number.
-The route command extension, TcpRouteEx, is used to discriminate which device addresses to listen on. The ip address is activing as a filter (constraint). 
+The route command extension, TcpRouteEx, is used to discriminate which device addresses to listen on. The ip address is acting as a filter (constraint). **TODO: allow it to act with a mask**.
 
 ## Specification scripts
 
